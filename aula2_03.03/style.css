@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: none;
+}
+header{
+    background-color: rgb(35, 113, 182);
+    padding: 50px;
+}
+
+header h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 800px;
+    margin: 30px;
+    padding: 5px;
+}
+
+.botoescalculo{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.botaodefinir {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+input:hover {
+    background-color: rgba(204, 20, 20, 0.377);
+}
+
+button{
+    margin: 5px;
+    width: 40%;
+    border: 1px solid grey;
+}
+
+button:hover {
+    background-color: rgba(204, 20, 20, 0.377);
+}
