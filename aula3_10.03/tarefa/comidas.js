@@ -1,0 +1,5 @@
+comida1= "abacate"
+comida2= "abacaxi"
+comida3= "morango"
+comida4= "frango"
+comida5= "carne"
