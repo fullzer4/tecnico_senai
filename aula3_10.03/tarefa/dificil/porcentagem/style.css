@@ -50,9 +50,22 @@ body{
     width: 350px;
     height: 100px;
     background-color: #E08ED8;
+    border-radius: 20px;
+    border: #8b3e85b7 2px solid;
+    text-align: center;
 }
-#z{
+#y{
     width: 350px;
     height: 100px;
     background-color: #E08ED8;
+    border-radius: 20px;
+    border: #8b3e85b7 2px solid;
+    text-align: center;
+}
+.botao{
+    width: 150px;
+    height: 50px;
+    background-color: #E08ED8;
+    border-radius: 20px;
+    border: #8b3e85b7 2px solid;
 }
