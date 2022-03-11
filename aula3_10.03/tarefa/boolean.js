@@ -27,7 +27,6 @@ const verificar =function(culpado, v){
 }
 
 console.log("Achamos os culpados este e o resultado de nossa pesquisa:")
-console.log("culpados:")
 console.log(verificar(culpado1, v1))
 console.log(verificar(culpado2, v2))
 console.log(verificar(culpado3, v3))
