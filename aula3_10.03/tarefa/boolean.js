@@ -17,11 +17,20 @@ v4 = isAtivo= pesquisa4
 v5 = isAtivo= pesquisa5
 v6 = isAtivo= pesquisa6
 
-console.log("Achamos os culpados esta o resultado de nossa pesquisa:")
+const verificar =function(culpado, v){
+    if(v == true){
+        return "Caso: "+ culpado +", Inocente"
+    }
+    else{
+        return "Caso: "+ culpado +", Culpado"
+    }
+}
+
+console.log("Achamos os culpados este e o resultado de nossa pesquisa:")
 console.log("culpados:")
-console.log(culpado1, v1)
-console.log(culpado2, v2)
-console.log(culpado3, v3)
-console.log(culpado4, v4)
-console.log(culpado5, v5)
-console.log(culpado6, v6)
+console.log(verificar(culpado1, v1))
+console.log(verificar(culpado2, v2))
+console.log(verificar(culpado3, v3))
+console.log(verificar(culpado4, v4))
+console.log(verificar(culpado5, v5))
+console.log(verificar(culpado6, v6))
