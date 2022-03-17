@@ -1,8 +1,8 @@
-var aluno1 = "aluno1"
-var aluno2 = "aluno2"
-var aluno3 = "aluno3"
-var aluno4 = "aluno4"
-var aluno5 = "aluno5"
+var aluno1 = "gabriel pelizzaro"
+var aluno2 = "gabriel antonio"
+var aluno3 = "gabriel alves"
+var aluno4 = "matheus michaito"
+var aluno5 = "anselmo henrique"
 
 /* para verificar */
 

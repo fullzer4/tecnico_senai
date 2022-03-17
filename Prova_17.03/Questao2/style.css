@@ -12,15 +12,18 @@ body {
 
 .sessao1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .sessao1 h1{
     font-size: 96px;
     color: #3B2F2F;
 }
-.sessao1 {
-    display: flex;
-    flex-direction: row;
+.sessao1 h2{
+    font-size: 34px;
+    color: #3B2F2F;
 }
