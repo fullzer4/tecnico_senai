@@ -7,157 +7,20 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(180deg, #EB75AE 0%, rgba(194, 41, 41, 0.58) 100%);
+    background: linear-gradient(180deg, #B987CA 0%, #ED9FB2 100%);
 }
 
-input {
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-
-::-webkit-input-placeholder{
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.sessao1{
+.sessao1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid;
 }
 
 .sessao1 h1{
     font-size: 96px;
     color: #3B2F2F;
 }
-
-.sessao1 h2{
-    font-size: 34px;
-    color: #3B2F2F;
-}
-
-.sessao2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.calculadora {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 1028px;
-    height: 597px;
-    background: rgba(255, 255, 255, 0.31);
-    border: 1px solid #000000;
-    border-radius: 60px;
-}
-
-.numeros{
+.sessao1 {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px;
-}
-
-#x {
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    width: 250px;
-    height: 90px;
-}
-
-#y {
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    width: 250px;
-    height: 90px;
-}
-
-#resultado {
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    width: 300px;
-    height: 100px;
-}
-
-.operadores{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.padrao{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.padrao button{
-    width: 107px;
-    height: 89px;
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.especiais{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-#resto{
-    width: 252px;
-    height: 89px;
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#raiz{
-    width: 107px;
-    height: 89px;
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#limpar{
-    width: 348px;
-    height: 89px;
-    background: rgba(49, 49, 49, 0.49);
-    border: 1px solid #000000;
-    border-radius: 20px;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
 }

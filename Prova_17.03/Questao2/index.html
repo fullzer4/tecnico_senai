@@ -7,31 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="pagina">
-        <section class="sessao1">
-            <h1>Calculadora</h1>
-            <h2>Grupo: Gabriel pelizzaro, Anselmo Henrique, Gabriel Alves, Matheus Michaito e Gabriel Antonio</h2>
+    <main>
+        <section>
+            <h1>calculadora</h1>
+            <h2>grupo:</h2>
         </section>
-        <section class="sessao2">
-            <div class="calculadora">
-                <div class="numeros">
-                    <input type="number" id="x" placeholder="Valor de x">
-                    <input type="number" id="y" placeholder="Valor de y">
-                    <input type="number" id="resultado" placeholder="Resultado" readonly>
+        <section>
+            <div>
+                <div>
+                    <input type="number" id="x">
+                    <input type="number" id="y">
+                    <input type="number" id="resultado"readonly>
                 </div>
-                <div class="operadores">
-                    <div class="padrao">
-                        <button type="button" onclick="somar()">+</button> <!-- feito -->
-                        <button type="button" onclick="diminuir()">-</button> <!-- feito -->
-                        <button type="button" onclick="dividir()">/</button> <!-- feito -->
-                        <button type="button" onclick="multiplicar()">x</button> <!-- feito -->
-                        <button type="button" onclick="potencia()">x<sup>2</sup></button> <!-- feito -->
-                    </div>
-                    <div class="especiais">
-                        <button type="button" id="resto" onclick="resto()">Resto</button> <!-- feito -->
-                        <button type="button" id="raiz" onclick="raiz()">√</button> <!-- feito -->
-                        <button type="button" id="limpar" onclick="clean()">Limpar tela</button> <!-- feito -->
-                    </div>
+                <div class="normais">
+                    <button type="button" onclick="somar()">+</button>
+                    <button type="button" onclick="diminuir()">-</button>
+                    <button type="button" onclick="dividir()">%</button>
+                    <button type="button" onclick="multiplicar()">x</button>
+                    <button type="button" onclick="potencia()">x<sub>2</sub></button>
+                </div>
+                <div class="especiais">
+                    <button type="button" onclick="clean()">limpar</button>
+                    <button type="button" onclick="raiz()">√</button>
+                    <button type="button" onclick="resto()">Resto</button>
+                </div>
             </div>
         </section>
     </main>
