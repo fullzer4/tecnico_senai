@@ -14,6 +14,7 @@ body {
     justify-content: center;
     justify-items: center;
     text-align: center;
+    gap: 200px;
 }
 
 .titulo{
@@ -49,8 +50,8 @@ body {
 .caixanome-texto{
     font-weight: 400;
     font-size: 63px;
-
     color: #403B3B;
+    margin: 40px;
 }
 
 .caixadetexto{
@@ -67,14 +68,24 @@ body {
     flex-direction: row;
     justify-content: center;
     justify-items: center;
+    margin-top: 100px;
 }
 
 .proximo{
-    display: block;
+    display: flex;
     background: #E6ABAB;
     border: 1px solid #403B3B;
     border-radius: 15px;
     width: 200px;
     height: 50px;
     text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.proximo a{
+    font-weight: 400;
+    font-size: 38px;
+    color: #403B3B;
+
 }
