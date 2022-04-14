@@ -63,8 +63,12 @@ body {
     height: 50px;
 }
 
+.botao{
+    background: #E5ABAB;
+}
+
 .container-proximo{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
