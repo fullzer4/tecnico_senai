@@ -1,12 +1,12 @@
-//leia 10 nomes e mostre ao usuario a quantidade de letras
-
-let nomes = ["Gabriel", "jose", "Adolfo", "Anselmo", "Isabelas", "Augusto", "Gustavo", "Gabriela", "Giovana", "Matheus"]
-
-let n = nomes.length
-let total = 0
-
-for (let i = 0; i < n; i++){
-    total += nomes[i].length
-    console.log(nomes)
+function minhalista(...nomes){ // ele deixa inserir mais doq um nome na funcao como lista
+    console.log(nomes);
+    Qnomes = nomes.length;
+    x = 1;
+    TotalC = (nomes.join(''));
+    TotalC = TotalC.length
+    if (Qnomes > x){
+        console.log(`numero de caracteres Total:  ${TotalC}, com um total de ${Qnomes} de nomes`);
+    }
 }
-console.log("Total de Caracteres", total)
+
+minhalista("Matheus", "Gabriel", "Joao", "Gigi", "Isabela", "Roger", "Tulio", "Federico", "Manuela", "PauloBastistella");
