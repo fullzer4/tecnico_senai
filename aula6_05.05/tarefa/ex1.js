@@ -1,4 +1,3 @@
-n = 100
-for(let i = 0; i < n; i++){
-    console.log(i+1)
+for(i=0; i <= 100; i++){
+    console.log(`Numero ${i}`)
 }
