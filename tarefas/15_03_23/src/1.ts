@@ -1,6 +1,7 @@
 import inquirer from 'inquirer'
 
 {
+    const produtos:any = []
 
     class Product {
 
@@ -41,29 +42,38 @@ import inquirer from 'inquirer'
         }
     }
 
-
-    const produto = new ImportedProduct("seila", 32, 10)
-
     const prompt = async () => {
         await inquirer.prompt([{
             name: 'vezes', message: 'Insira quantos produtos voce quer inserir: '
-        }]).then((result:any) => {
+        }]).then( async (result:any) => {
             for(let i = 0; i < result.vezes; i++){
-                inquirer.prompt([{
+                await inquirer.prompt([{
                     name: 'tipo', message: 'Seu produto é importado ( y / n ):  '
-                }]).then((result:any) => {
+                }]).then(async (result:any) => {
                     if(result.tipo === "y"){
-                        inquirer.prompt([{
+                        await inquirer.prompt([{
                             name: 'name', message: 'Nome do seu produto:  '
                         },{
                             name: 'price', message: 'Preço do seu produto:  '
                         },{
-                            name: 'customFree', message: 'Taxa de importação (insira 0.10 = 10%):  '
-                        },]).then((result) => {
-                            
+                            name: 'customFree', message: 'Taxa de importação:  '
+                        },]).then( async (result) => {
+                            const produto = new ImportedProduct(String(result.name), Number(result.price), Number(result.customFree))
+                            produtos.push(produto)
+                            console.log(produtos);
                         })
                     }else if(result.tipo === "n"){
-
+                        await inquirer.prompt([{
+                            name: 'name', message: 'Nome do seu produto:  '
+                        },{
+                            name: 'price', message: 'Preço do seu produto:  '
+                        },{
+                            name: 'date', message: 'Data do seu produto:  '
+                        },]).then( async (result) => {
+                            const produto = new UsedProduct(String(result.name), Number(result.price), Number(result.date))
+                            produtos.push(produto)
+                            console.log(produtos);
+                        })
                     }else{
                         console.log("Input errado")
                     }
